@@ -1,0 +1,54 @@
+﻿Mudanças Realizadas na arquitetura do jogo de Ludo em relação a Visão de Módulos.
+
+Em relação ao Módulo IO
+
+Funções acrescentadas:
+IO_PrintMensagem()
+IO_InputNumeroJogadores()
+IO_ErrMalloc()
+IO_RecebeuDigito()
+
+A função IO_PrintMensagem foi adicionada para padronizar o estilo de mensagem de nosso programa.
+A função IO_InputNumeroJogadores foi adicionada para capturar o número de jogadores de cada partida.
+A função IO_GerenciarTurno foi adicionada para realizar a comunicação com os jogadores durante os turnos,informando-os os momentos de jogar o dado, escolher peças e registrando qualquer tipo de evento.
+A função IO_RecebeuDigito foi adicionada para validação de input.
+
+Em relação ao Módulo Tabuleiro
+
+Funções acrescentadas:
+TAB_ProcurarReta()
+TAB_IrInicioReta()
+TAB_SairSpawn()
+TAB_VerificarTabuleiro()
+TAB_VerificarCasa()
+TAB_VerificarSpawnPeca()
+TAB_VerificarSpawnJogador()
+TAB_VerificarReta()
+TAB_RolarDado()
+TAB_Transicionar()
+TAB_ConferirVitoria()
+TAB_ProcurarSpawn()
+TAB_ConferirPecaConcluida()
+
+
+A função TAB_ProcurarReta foi adicionada para localizar peças na reta do jogador desejado.
+A função TAB_IrInicioReta foi adicionada para que o elemento corrente fosse redirecionado para o início da reta.
+A função TAB_SairSpawn foi adicionada para realizar a saída de uma certa peça dentro do "spawn" (local de origem) de um certo jogador.
+A função TAB_VerificarTabuleiro foi adicionada para verificar se uma certa peça está no tabuleiro.
+A função TAB_VerificarSpawnPeca foi adicionada para verificar se uma peça qualquer está dentro do "spawn" de um certo jogador.
+A função TAB_VerificarSpawnJogador foi adicionada para verificar se um certo jogador possui qualquer peça no seu "spawn".
+A função TAB_VerificarReta foi adicionada para verificar se uma peça específica de um jogador está dentro da reta, de acordo com o número inserido pelo jogador no Input.
+A função TAB_RolarDado foi adicionada para gerar de forma randômica um número de 1 a 6, que representa a quantidade de casas que uma peça será movida em um certo turno.
+A função TAB_Transicionar foi adicionada para realizar a transição de uma peça do tabuleiro para a reta de um certo jogador.
+a funçào TAB_ProcurarSpawn foi adicionada para localizar uma peça específica no spawn de um jogador desejado.
+A função TAB_VerificarCasa foi adicionada para tratar o ato de "comer" uma peça, na qual a peça que estava inicialmente na casa, é redirecionada para o "spawn" do seu jogador.
+A função TAB_ConferirPecaConcluida foi adicionada para conferir se uma peça já se encontra na sua posição final.
+
+Em relação ao Módulo Partida
+GerenciarTurno()
+
+Observações:
+
+Em relação ao módulo LISTA E LISTAC nada foi alterado.
+
+

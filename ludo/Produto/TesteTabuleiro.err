@@ -1,0 +1,12 @@
+tst_tabuleiro.c
+tabuleiro.c
+io.c
+..\Fonte\io.c(163) : warning C4127: conditional expression is constant
+Microsoft (R) Incremental Linker Version 10.00.30319.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/OUT:..\Produto\TesteTabuleiro.exe 
+/INCREMENTAL:NO 
+/MACHINE:IX86 
+tst_tabuleiro.obj tabuleiro.obj lista.obj listac.obj io.obj 
+ArcaboucoTeste.lib 

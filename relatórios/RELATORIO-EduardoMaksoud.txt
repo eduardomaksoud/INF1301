@@ -1,0 +1,35 @@
+Data; Horas Trabalhadas; Tipo Tarefa; Descrição da Tarefa Realizada
+
+13/04; 1 hora; especificar os módulos; Realizada a especificação de requisitos de todos os módulos do projeto, através do detalhamento de requisitos funcionais e não funcionais.
+
+13/04; 5 horas; codificar módulo; Início da adaptação do módulo LISTA para LISTAC (LISTA CIRCULAR).
+
+14/04; 2 horas; revisar código do módulo; Realizada revisões do código do módulo LISTAC, com o intuito de torná-lo mais legível. Além disso, realização de pequenos testes manuais, para garantir o funcionamento de algumas funções deste mesmo módulo.
+
+27/04; 3 horas; codificar módulo; Participação no desenvolvimento do módulo tabuleiro.
+
+10/05; 1 hora; regidir scripts de teste; Desenvolvimento do script de teste para o módulo LISTAC.
+
+10/05; 3 horas; estudar; Compreensão do funcionamento do arcabouço e como realizar os testes necessários para os módulos.
+
+10/05; 1 hora; diagnosticar e corrigir os problemas encontrados; Organização dos diretórios do trabalho e desenvolvimento do arquivo TesteListac.comp, que por não ter sido desenvolvido até o momento, não permitia gerar o executável para rodar o módulo de teste.
+
+11/05; 2 horas; realizar os testes; Realização do teste do módulo LISTAC e LISTA.
+
+11/05; 1 hora; codificar módulo; Início de desenvolvimento do módulo Teste Tabuleiro.
+
+11/05; 2 horas; revisar especificações; Revisão da especificação de requisitos acrescentando requisitos funcionais.
+
+11/05; 1 hora; projetar; Projetar a arquitetura do programa, abrangendo a visão de módulos e de interfaces.
+
+01/06; 3 horas; Desenvolvimento do tabuleiro
+
+12/06; 5 horas; Redigir script de teste
+
+25/06; 2 horas; revisar código do módulo
+
+26/06; 2 horas; Revisão do código do modulo tabuleiro
+
+30/06; 4 horas; Revisão das especificações de requisitos
+
+01/07 3 horas; Revisão dos módulos

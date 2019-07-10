@@ -1,0 +1,19 @@
+EXECUTÁVEL DO PROGRAMA:
+
+O arquivo executável TRAB2-1.exe se encontra na pasta Produto.
+
+COMO EXECUTAR OS TESTES DOS MÓDULOS LISTA, LISTAC E tabuleiro:
+
+Os diretórios estão organizados de acordo com o padrão definido na pasta "instrum".
+Para gerar os testes dos módulos "LISTA","LISTAC" e "tabuleiro" é necessário executar os bats vsvars32.bat e Tudo.bat
+que se encontram na pasta Batches.
+
+INTERAÇÃO COM O JOGO:
+
+No início do jogo será perguntado quantas pessoas vão jogar. Deverá ser escolhido um número de 0 à 4.
+
+Em seguida o jogo será iniciado.
+
+Para jogar o dado, o jogador deve apenas apertar ENTER. Então, ele deverá escolher o número da peça (de 0 à 4) para ser movimentada.
+
+O jogador que chegar com todas as pessas na reta final ganha o jogo.

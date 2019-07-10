@@ -1,0 +1,30 @@
+////////////////////////////////////////////////
+//
+// Exemplo de arquivo de declaração de contadores
+// Conta módulo ListaCircular Marcado
+//
+///////////////////////////////////////////////
+    
+    LISC_CriarLista
+	LISC_CriarLista_malloc
+    LISC_DestruirLista
+	LISC_DestruirLista_elemNull
+    LISC_EsvaziarLista
+	LISC_EsvaziarLista_loop
+    LISC_InserirElementoAntes
+	LISC_InserirElementoAntes_elemNull
+	LISC_InserirElementoAntes_elemCorrNull
+	LISC_InserirElementoAntes_pAntNull
+    LISC_InserirElementoApos
+	LISC_InserirElementoApos_elemNull
+	LISC_InserirElementoApos_elemCorrNull
+	LISC_InserirElementoApos_pAntNull
+    LISC_ExcluirElemento
+	LISC_ExcluirElemento_elemCorrNull
+    LISC_ObterValor
+	LISC_ObterValor_elemCorrNull
+    LISC_AvancarElementoCorrente
+	LISC_AvancarElementoCorrente_elemCorrNull
+	LISC_ProcurarValor
+	LISC_ProcurarValor_elemCorrNull
+	 XPTO nome adicionado para fins de teste\=-2

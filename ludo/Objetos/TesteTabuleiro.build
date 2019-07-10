@@ -1,0 +1,6 @@
+/OUT:..\Produto\TesteTabuleiro.exe
+/INCREMENTAL:NO
+/MACHINE:IX86
+tst_tabuleiro.obj  tabuleiro.obj  lista.obj  listac.obj  io.obj  
+ArcaboucoTeste.lib
+

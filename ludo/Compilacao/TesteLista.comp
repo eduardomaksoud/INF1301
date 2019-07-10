@@ -1,0 +1,24 @@
+# Composicao do programa de teste de uma lista genérica duplamente encadeada
+
+[Diretorios]
+
+Nome        =  TesteLista
+PathDefault =  ..\Fonte
+err         =  ..\Produto
+obj         =  ..\Objetos
+c           =  ..\Fonte
+h           =  ..\Fonte
+
+[Modulos]
+TESTLIS
+LISTA
+
+[BuildInicio]
+/OUT:..\Produto\TesteLista.exe
+/INCREMENTAL:NO
+/MACHINE:IX86
+
+[BuildFim]
+ArcaboucoTeste.lib
+
+[Fim]

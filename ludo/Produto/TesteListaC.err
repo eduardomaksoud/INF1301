@@ -1,0 +1,10 @@
+listac.c
+tst_listac.c
+Microsoft (R) Incremental Linker Version 10.00.30319.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/OUT:..\Produto\TesteListaC.exe 
+/INCREMENTAL:NO 
+/MACHINE:IX86 
+listac.obj tst_listac.obj 
+ArcaboucoTeste.lib 

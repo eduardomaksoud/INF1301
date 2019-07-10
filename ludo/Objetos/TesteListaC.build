@@ -1,0 +1,6 @@
+/OUT:..\Produto\TesteListaC.exe
+/INCREMENTAL:NO
+/MACHINE:IX86
+listac.obj  tst_listac.obj  
+ArcaboucoTeste.lib
+

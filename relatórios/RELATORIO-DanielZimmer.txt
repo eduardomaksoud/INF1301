@@ -1,0 +1,29 @@
+Data; Horas Trabalhadas; Tipo Tarefa; Descrição da Tarefa Realizada
+
+13/04; 1 hora; especificar os módulos; Especificar os módulos que serão usados no projeto
+
+13/04; 6 horas; codificar módulo; Criação do módulo LISTAC usando o módulo LISTA como base
+
+27/04; 8 horas;  codificar módulo; Criação do módulo tabuleiro e do módulo io
+
+10/05; 1 hora; realizar os testes; Realização dos teste dos módulos LISTAC e aprimoramento do módulo e LISTA
+
+11/05; 1 horas; revisar especificações; Correção das especificações de requisitos
+
+11/05; 1 horas; revisar código do módulo; Revisão do código do modulo tabuleiro
+
+13/05; 8 horas; redigir script de teste; Escrita e resolução de bugs dos scripts de teste do módulo tabuleiro
+
+01/06; 4 horas; Desenvolvimento do módulo tabuleiro
+
+02/06; 3 horas; Desenvolvimento do módulo tabuleiro
+
+12/06; 5 horas; redigir script de teste
+
+18/06; 3 horas; redigir script de teste
+
+25/06; 2 horas; revisar código do módulo; Escrita e resolução de bugs dos scripts
+
+30/06; 4 horas; Correção das especificações de requisitos
+
+01/07 3 horas; Revisão dos módulos

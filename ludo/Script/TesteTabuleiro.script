@@ -1,0 +1,107 @@
+// Script: TesteTabuleiro.script
+// Autores: Daniel Zimmer,Eduardo Maksoud e Gabriel Vasconcellos
+// Data: 10/05/2019
+// Propósito: Testar o módulo tabuleiro
+//
+
+== Inicializar valores
+=declararparm   tab0    int		0
+
+=declararparm	numJ	int		4
+
+=declararparm   str0    string  "  "
+=declararparm	str1	string	"A1"
+=declararparm	str2	string	"A2"
+=declararparm	str3	string	"A3"
+=declararparm	str4	string	"A4"
+=declararparm	str5	string	"B1"
+=declararparm	str6	string	"B2"
+=declararparm	str7	string	"B3"
+=declararparm	str8	string	"B4"
+=declararparm	str9	string	"C1"
+=declararparm	str10	string	"C2"
+=declararparm	str11	string	"C3"
+=declararparm	str12	string	"C4"
+=declararparm	str13	string	"D1"
+=declararparm	str14	string	"D2"
+=declararparm	str15	string	"D3"
+=declararparm	str16	string	"D4"
+
+=declararparm	jogadorA int	0
+=declararparm	jogadorB int	1
+=declararparm	jogadorC int	2
+=declararparm	jogadorD int	3
+
+=declararparm   OK             int  0
+=declararparm   FaltouMemoria  int  1
+
+=declararparm   pNULL          int  0
+=declararparm   pNaoNULL       int  1
+
+== Criar o tabuleiro
+=criartabuleiro tab0	numJ
+
+==Conferir se o tabuleiro esta preenchido pela string "  "
+=tabuleirovazio tab0	numJ
+
+==Conferir se as retas estao preenchidas pela string "  "
+=obterreta		tab0	jogadorA	str0	pNaoNULL
+=avancarreta	tab0	jogadorA	1
+=obterreta		tab0	jogadorA	str0	pNaoNULL
+=avancarreta	tab0	jogadorA	1
+=obterreta		tab0	jogadorA	str0	pNaoNULL
+=avancarreta	tab0	jogadorA	1
+=obterreta		tab0	jogadorA	str0	pNaoNULL
+=obterreta		tab0	jogadorB	str0	pNaoNULL
+=avancarreta	tab0	jogadorB	1
+=obterreta		tab0	jogadorB	str0	pNaoNULL
+=avancarreta	tab0	jogadorB	1
+=obterreta		tab0	jogadorB	str0	pNaoNULL
+=avancarreta	tab0	jogadorB	1
+=obterreta		tab0	jogadorB	str0	pNaoNULL
+=obterreta		tab0	jogadorC	str0	pNaoNULL
+=avancarreta	tab0	jogadorC	1
+=obterreta		tab0	jogadorC	str0	pNaoNULL
+=avancarreta	tab0	jogadorC	1
+=obterreta		tab0	jogadorC	str0	pNaoNULL
+=avancarreta	tab0	jogadorC	1
+=obterreta		tab0	jogadorC	str0	pNaoNULL
+=obterreta		tab0	jogadorD	str0	pNaoNULL
+=avancarreta	tab0	jogadorD	1
+=obterreta		tab0	jogadorD	str0	pNaoNULL
+=avancarreta	tab0	jogadorD	1
+=obterreta		tab0	jogadorD	str0	pNaoNULL
+=avancarreta	tab0	jogadorD	1
+=obterreta		tab0	jogadorD	str0	pNaoNULL
+
+==Conferir se os spawns estao com as strings corretas
+=obterspawn		tab0	jogadorA	str1	pNaoNULL
+=avancarspawn	tab0	jogadorA	1
+=obterspawn		tab0	jogadorA	str2	pNaoNULL
+=avancarspawn	tab0	jogadorA	1
+=obterspawn		tab0	jogadorA	str3	pNaoNULL
+=avancarspawn	tab0	jogadorA	1
+=obterspawn		tab0	jogadorA	str4	pNaoNULL
+=obterspawn		tab0	jogadorB	str5	pNaoNULL
+=avancarspawn	tab0	jogadorB	1
+=obterspawn		tab0	jogadorB	str6	pNaoNULL
+=avancarspawn	tab0	jogadorB	1
+=obterspawn		tab0	jogadorB	str7	pNaoNULL
+=avancarspawn	tab0	jogadorB	1
+=obterspawn		tab0	jogadorB	str8	pNaoNULL
+=obterspawn		tab0	jogadorC	str9	pNaoNULL
+=avancarspawn	tab0	jogadorC	1
+=obterspawn		tab0	jogadorC	str10	pNaoNULL
+=avancarspawn	tab0	jogadorC	1
+=obterspawn		tab0	jogadorC	str11	pNaoNULL
+=avancarspawn	tab0	jogadorC	1
+=obterspawn		tab0	jogadorC	str12	pNaoNULL
+=obterspawn		tab0	jogadorD	str13	pNaoNULL
+=avancarspawn	tab0	jogadorD	1
+=obterspawn		tab0	jogadorD	str14	pNaoNULL
+=avancarspawn	tab0	jogadorD	1
+=obterspawn		tab0	jogadorD	str15	pNaoNULL
+=avancarspawn	tab0	jogadorD	1
+=obterspawn		tab0	jogadorD	str16	pNaoNULL
+
+// fim
