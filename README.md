@@ -1,2 +1,2 @@
-# INF1301-T4
+# INF1301
 Jogo de Ludo
